@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 // import { AddTicketForm } from './components/add-ticket-form/AddTicketForm.comp';
 import { DefaultLayout } from './layout/DefaultLayout';
-import { TicketLists } from './pages/ticket-list/TicketLists.page';
+// import { TicketLists } from './pages/ticket-list/TicketLists.page';
 // import { Dashboard } from './pages/dashboard/Dashboard.page';
+import {Ticket} from "./pages/ticket/Ticket.page";
 
 
 // import { Button } from 'react-bootstrap';//
@@ -18,7 +19,8 @@ function App() {
      <DefaultLayout>
        {/* <Dashboard/> */}
        {/* <AddTicketForm /> */}
-       <TicketLists />
+       {/* <TicketLists /> */}
+       <Ticket/>
       </DefaultLayout>
     </div>
   );
